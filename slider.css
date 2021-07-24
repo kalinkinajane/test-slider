@@ -1,0 +1,151 @@
+.body {
+  box-sizing: border-box;
+  margin: 0;
+  background: #0f0f0f;
+}
+.main {
+  margin: 0 auto 384px;
+  max-width: 1561px;
+  width: 100%;
+  box-sizing: border-box;
+  background: #0f0f0f;
+}
+.main__container {
+  margin: 89px 103px 150px 104px;
+}
+.main__img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.slider {
+  display: flex;
+  position: relative;
+  margin-bottom: 120px;
+}
+.slider-one.swiper-container {
+  max-width: 1219px;
+  width: 84%;
+  margin-left: 0;
+}
+.slider-second.swiper-container {
+  max-width: 1238px;
+  width: 84%;
+  margin-right: 0;
+}
+.slider-third.swiper-container {
+  max-width: 1343px;
+  width: 84%;
+  margin-left: 0;
+}
+.slider__img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.slider__text {
+  position: absolute;
+  text-align: right;
+  font-family: "Open Sans";
+  font-style: normal;
+  z-index: 10;
+}
+.slider__text-third {
+  bottom: 38px;
+  right: 140px;
+}
+.slider__text-second {
+  bottom: -34px;
+  left: 121px;
+  text-align: left;
+}
+.slider__text-one {
+  bottom: 30px;
+  right: 138px;
+}
+.slider__count {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 49px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+}
+.slider__name {
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 64px;
+  text-align: left;
+  text-transform: uppercase;
+  max-width: 432px;
+  color: #ffffff;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+  margin: 64px 0 0;
+}
+.slider__container {
+  flex: 1;
+}
+
+@media screen and (max-width: 1445px) {
+  .slider__text-third {
+    right: 50px;
+  }
+  .slider__text-second {
+    left: 31px;
+  }
+  .slider__text-one {
+    right: 48px;
+  }
+}
+@media screen and (max-width: 1060px) {
+  .slider__count {
+    font-size: 30px;
+    line-height: 39px;
+  }
+  .slider__name {
+    font-size: 54px;
+    line-height: 54px;
+    max-width: 432px;
+    margin: 54px 0 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .slider__count {
+    font-size: 26px;
+    line-height: 29px;
+  }
+  .slider__name {
+    font-size: 34px;
+    line-height: 34px;
+    max-width: 200px;
+    margin: 54px 0 0;
+  }
+  .slider {
+    margin-bottom: 60px;
+  }
+  .main__container {
+    margin: 49px 20px 74px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .slider__count {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .slider__name {
+    font-size: 22px;
+    line-height: 22px;
+    max-width: 200px;
+    margin: 34px 0 0;
+  }
+  .slider__text-third {
+    right: 30px;
+  }
+  .slider__text-second {
+    left: 15px;
+    bottom: 0;
+  }
+  .slider__text-one {
+    right: 18px;
+  }
+}
