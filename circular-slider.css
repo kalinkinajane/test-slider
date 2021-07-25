@@ -1,0 +1,121 @@
+.body {
+  box-sizing: border-box;
+  margin: 0;
+  background: #0c0c0c;
+}
+.circular-slider {
+  margin: 54px auto 114px;
+  max-width: 1223px;
+  width: 100%;
+  box-sizing: border-box;
+  background: #0c0c0c;
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 27px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.circular-slider__title {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  max-width: 500px;
+  margin: 0 auto 47px 111px;
+  text-transform: none;
+}
+.circular-slider__container {
+  display: flex;
+}
+
+.circular-slider__text-one {
+  max-width: 580px;
+  margin: 0 40px 19px auto;
+}
+.circular-slider__text-second {
+  max-width: 587px;
+  margin: 24px auto 0 12px;
+  text-align: right;
+}
+.circular-slider__content-left {
+  max-width: 436px;
+  text-align: right;
+  margin-right: 11px;
+}
+.circular-slider__content-right {
+  max-width: 437px;
+  text-align: left;
+  margin-left: 12px;
+}
+.circular-slider__text-left:first-child {
+  margin: 54px 0 91px;
+}
+.circular-slider__text-left:last-child {
+  margin: 0 0 auto;
+}
+.circular-slider__text-right:first-child {
+  margin: 47px 0 115px;
+}
+.circular-slider__text-right:last-child {
+  margin: 0 0 auto;
+}
+.slider-mob{
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .circular-slider-web{
+    display: none;
+  }
+  .slider-mob{
+    display: block;
+  }
+  .circular-slider {
+    margin: 27px auto 50px;
+    width: 85.2%;
+    box-sizing: border-box;
+    background: #0c0c0c;
+    color: #ffffff;
+    font-family: "Inter";
+    font-style: normal;
+  }
+  .circular-slider__title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    max-width: 312px;
+    margin: 0 auto 44px;
+  }
+  .circular-slider__text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    max-width: 312px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+  }
+  .slider {
+    margin: auto;
+    width: 100%;
+  }
+  .circular-slider__img {
+    display: block;
+    width: 286px;
+    margin: auto;
+    -moz-transition: all 2s ease;
+    -webkit-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
+  }
+}
